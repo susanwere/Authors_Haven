@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/susanwere/Authors_Haven.svg?branch=develop)](https://travis-ci.org/susanwere/Authors_Haven)
+
 # Authors_Haven - A Social platform for the creative at heart.
 
 A social platform for the creative at heart	
