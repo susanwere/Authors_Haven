@@ -1,6 +1,6 @@
 env:
   global:
-    # - CC_TEST_REPORTER_ID=$CC_TEST_REPORTER_ID
+    - CC_TEST_REPORTER_ID=$CC_TEST_REPORTER_ID
 language: ruby
 rvm:
   - 2.4.1
@@ -15,6 +15,7 @@ before_script:
   - ./cc-test-reporter before-build
   - bundle exec rake db:create
   - bundle exec rake db:migrate
+  
 scripts:
   - bundle exec rspec spec
 after_script:
