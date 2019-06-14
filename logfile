@@ -1,0 +1,19 @@
+2019-06-12 22:55:31.796 EAT [3087] LOG:  listening on IPv6 address "::1", port 5432
+2019-06-12 22:55:31.796 EAT [3087] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-06-12 22:55:31.797 EAT [3087] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-06-12 22:55:31.812 EAT [3088] LOG:  database system was shut down at 2019-06-12 22:55:25 EAT
+2019-06-12 22:55:31.815 EAT [3087] LOG:  database system is ready to accept connections
+2019-06-12 22:55:42.195 EAT [3129] FATAL:  database "Authors_Haven_test" does not exist
+2019-06-12 22:55:42.250 EAT [3130] FATAL:  database "Authors_Haven_test" does not exist
+2019-06-12 23:26:00.217 EAT [4135] ERROR:  database "Authors_Haven_development" already exists
+2019-06-12 23:26:00.217 EAT [4135] STATEMENT:  CREATE DATABASE "Authors_Haven_development" ENCODING = 'unicode'
+2019-06-12 23:26:00.228 EAT [4136] ERROR:  database "Authors_Haven_test" already exists
+2019-06-12 23:26:00.228 EAT [4136] STATEMENT:  CREATE DATABASE "Authors_Haven_test" ENCODING = 'unicode'
+2019-06-13 07:54:40.610 EAT [17030] ERROR:  database "Authors_Haven_development" already exists
+2019-06-13 07:54:40.610 EAT [17030] STATEMENT:  CREATE DATABASE "Authors_Haven_development" ENCODING = 'unicode'
+2019-06-13 07:54:40.626 EAT [17031] ERROR:  database "Authors_Haven_test" already exists
+2019-06-13 07:54:40.626 EAT [17031] STATEMENT:  CREATE DATABASE "Authors_Haven_test" ENCODING = 'unicode'
+2019-06-13 08:17:05.607 EAT [17921] ERROR:  database "Authors_Haven_test" already exists
+2019-06-13 08:17:05.607 EAT [17921] STATEMENT:  CREATE DATABASE "Authors_Haven_test" ENCODING = 'unicode'
+2019-06-13 08:17:05.628 EAT [17922] ERROR:  database "Authors_Haven_test" already exists
+2019-06-13 08:17:05.628 EAT [17922] STATEMENT:  CREATE DATABASE "Authors_Haven_test" ENCODING = 'unicode'
