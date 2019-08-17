@@ -13,8 +13,11 @@
 # it.
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
+require 'coveralls'
+Coveralls.wear!
+
 require 'simplecov'
-SimpleCov.start
+SimpleCov.start 
 
 require 'swagger_helper'
 

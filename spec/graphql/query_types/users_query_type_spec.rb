@@ -1,3 +1,5 @@
+require 'rails_helper'
+
 RSpec.describe QueryTypes::UsersQueryType do
   # avail type definer in our tests
   types = GraphQL::Define::TypeDefiner.instance

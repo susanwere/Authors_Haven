@@ -7,3 +7,35 @@ A social platform for the creative at heart
 
  ## Vision
 Create a community of like minded authors to foster inspiration and innovation by leveraging the modern web.
+
+#### Creating a user
+
+```
+mutation{
+  createUser(
+    firstname: "firstname",
+    lastname: "lastname",
+    username: "username",
+    email: "email",
+    password: "password"
+  ){
+    firstname,
+    lastname,
+    username,
+    email
+  }
+}
+```
+#### Getting all users
+
+```
+{
+  allUsers {
+    id,
+    firstname,
+    lastname,
+    username,
+    email
+  }
+}
+```

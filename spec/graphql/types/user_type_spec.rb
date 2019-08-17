@@ -1,3 +1,5 @@
+require 'rails_helper'
+
 Rspec.describe Types::UserType do
   set_graphql_type
 
