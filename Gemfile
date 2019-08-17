@@ -32,9 +32,16 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'coveralls', require: false
   gem 'simplecov', require: false
-  gem 'factory_bot_rails', '~> 4.0'
-  gem 'shoulda-matchers', '~> 3.1'
-  gem 'faker'
+  gem 'simplecov-html', require: false
+  gem 'pry-rails', '~> 0.3.6'
+end
+
+group :test do
+  gem 'database_cleaner', '~> 1.6', '>= 1.6.2'
+  gem 'factory_bot_rails', '~> 4.8', '>= 4.8.2'
+  gem 'faker', '~> 1.8', '>= 1.8.7'
+  gem 'shoulda-matchers', '~> 3.1', '>= 3.1.2'
+  gem 'rspec-graphql_matchers'
 end
 
 gem 'rspec-rails'
@@ -50,3 +57,5 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'rswag'
+gem 'bcrypt'
+gem "graphiql-rails"
