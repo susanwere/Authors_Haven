@@ -2,10 +2,30 @@
 
 # Authors_Haven - A Social platform for the creative at heart.
 
-A social platform for the creative at heart	
+A social platform for the creative at heart
 
+## 📖 Documentation
 
- ## Vision
+**Live Documentation**: [https://susanwere.github.io/Authors_Haven](https://susanwere.github.io/Authors_Haven)
+
+The complete API documentation, including examples and getting started guides, is hosted on GitHub Pages.
+
+## 🚀 Deployment Options
+
+### GitHub Pages (Documentation Only)
+- **What**: Static documentation site with API examples and guides
+- **Where**: [GitHub Pages](https://susanwere.github.io/Authors_Haven)
+- **Auto-deployed**: Yes, via GitHub Actions on push to `main` or `develop`
+
+### API Deployment (Server Required)
+The Rails API itself requires a server environment and can be deployed to:
+- [Heroku](https://heroku.com)
+- [Railway](https://railway.app)
+- [DigitalOcean App Platform](https://www.digitalocean.com/products/app-platform)
+- [AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk)
+- [Google Cloud Run](https://cloud.google.com/run)
+
+## Vision
 Create a community of like minded authors to foster inspiration and innovation by leveraging the modern web.
 
 #### Creating a user

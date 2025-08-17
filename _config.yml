@@ -1,0 +1,66 @@
+title: Authors Haven API Documentation
+description: A social platform for the creative at heart - GraphQL API Documentation
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# Exclude from processing
+exclude:
+  - app/
+  - bin/
+  - config/
+  - db/
+  - lib/
+  - log/
+  - spec/
+  - storage/
+  - swagger/
+  - tmp/
+  - vendor/
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+  - config.ru
+  - .travis.yml
+  - .rspec
+  - .ruby-version
+  - .coveralls.yml
+  - "*.log"
+
+# Include docs directory
+include:
+  - docs/
+
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "docs"
+    values:
+      layout: "default"
+
+# URL Configuration
+url: "https://susanwere.github.io"
+baseurl: "/Authors_Haven"
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: API Documentation
+    url: /docs/
+  - title: GitHub Repository
+    url: https://github.com/susanwere/Authors_Haven
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
