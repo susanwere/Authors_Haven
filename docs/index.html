@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authors Haven - GraphQL API Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Authors Haven</h1>
+            <p class="tagline">A Social platform for the creative at heart</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="intro">
+            <h2>Welcome to Authors Haven API</h2>
+            <p>A social platform for the creative at heart. Our GraphQL API enables you to build applications that connect authors and foster inspiration and innovation through modern web technologies.</p>
+            
+            <div class="badges">
+                <img src="https://travis-ci.org/susanwere/Authors_Haven.svg?branch=develop" alt="Build Status">
+                <img src="https://coveralls.io/repos/github/susanwere/Authors_Haven/badge.svg?branch=develop" alt="Coverage Status">
+                <img src="https://api.codeclimate.com/v1/badges/5b43295e494908e4baf7/maintainability" alt="Maintainability">
+                <img src="https://api.codeclimate.com/v1/badges/5b43295e494908e4baf7/test_coverage" alt="Test Coverage">
+            </div>
+        </section>
+
+        <section id="quick-start">
+            <h2>Quick Start</h2>
+            <p>The Authors Haven API is a GraphQL endpoint that allows you to:</p>
+            <ul>
+                <li>Create and manage user accounts</li>
+                <li>Query user information</li>
+                <li>Build social features for authors</li>
+            </ul>
+            
+            <div class="endpoint-info">
+                <h3>API Endpoint</h3>
+                <code>POST /graphql</code>
+                <p>Send your GraphQL queries and mutations to this endpoint.</p>
+            </div>
+        </section>
+
+        <section id="examples">
+            <h2>API Examples</h2>
+            
+            <div class="example">
+                <h3>Creating a User</h3>
+                <pre><code>mutation {
+  createUser(
+    firstname: "John",
+    lastname: "Doe", 
+    username: "johndoe",
+    email: "john@example.com",
+    password: "securepassword"
+  ) {
+    firstname
+    lastname
+    username
+    email
+  }
+}</code></pre>
+            </div>
+
+            <div class="example">
+                <h3>Getting All Users</h3>
+                <pre><code>{
+  allUsers {
+    id
+    firstname
+    lastname
+    username
+    email
+  }
+}</code></pre>
+            </div>
+        </section>
+
+        <section id="getting-started">
+            <h2>Getting Started</h2>
+            <ol>
+                <li><strong>Set up your environment:</strong> You'll need a GraphQL client to interact with our API</li>
+                <li><strong>Explore the schema:</strong> Use GraphiQL or another GraphQL explorer to understand available queries and mutations</li>
+                <li><strong>Authentication:</strong> Follow our authentication guide to secure your requests</li>
+                <li><strong>Build your app:</strong> Start creating amazing experiences for authors!</li>
+            </ol>
+        </section>
+
+        <section id="deployment">
+            <h2>Deployment Information</h2>
+            <div class="deployment-note">
+                <h3>Important Note</h3>
+                <p>While this documentation is hosted on GitHub Pages, the actual Authors Haven API requires a server environment with:</p>
+                <ul>
+                    <li>Ruby on Rails runtime</li>
+                    <li>PostgreSQL database</li>
+                    <li>Application server (Puma)</li>
+                </ul>
+                <p>Consider deploying the API to platforms like:</p>
+                <ul>
+                    <li>Heroku</li>
+                    <li>Railway</li>
+                    <li>DigitalOcean App Platform</li>
+                    <li>AWS Elastic Beanstalk</li>
+                    <li>Google Cloud Run</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contributing">
+            <h2>Contributing</h2>
+            <p>We welcome contributions to Authors Haven! Visit our <a href="https://github.com/susanwere/Authors_Haven">GitHub repository</a> to:</p>
+            <ul>
+                <li>Report issues</li>
+                <li>Submit pull requests</li>
+                <li>Review our contributing guidelines</li>
+                <li>Join the discussion</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Authors Haven. A social platform for the creative at heart.</p>
+            <p><a href="https://github.com/susanwere/Authors_Haven">View on GitHub</a></p>
+        </div>
+    </footer>
+</body>
+</html>

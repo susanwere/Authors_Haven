@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found - Authors Haven</title>
+    <link rel="stylesheet" href="./docs/styles.css">
+    <style>
+        .error-container {
+            text-align: center;
+            padding: 4rem 2rem;
+            min-height: 60vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .error-code {
+            font-size: 6rem;
+            font-weight: 300;
+            color: #667eea;
+            margin-bottom: 1rem;
+        }
+        .error-message {
+            font-size: 1.5rem;
+            color: #555;
+            margin-bottom: 2rem;
+        }
+        .home-link {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: transform 0.3s ease;
+        }
+        .home-link:hover {
+            transform: translateY(-2px);
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Authors Haven</h1>
+            <p class="tagline">A Social platform for the creative at heart</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="error-container">
+            <div class="error-code">404</div>
+            <div class="error-message">Page Not Found</div>
+            <p>The page you're looking for doesn't exist or may have been moved.</p>
+            <a href="./docs/" class="home-link">Go to Documentation</a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Authors Haven. A social platform for the creative at heart.</p>
+            <p><a href="https://github.com/susanwere/Authors_Haven">View on GitHub</a></p>
+        </div>
+    </footer>
+</body>
+</html>
